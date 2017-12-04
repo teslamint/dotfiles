@@ -1,0 +1,263 @@
+tap 'bfontaine/command-not-found'
+tap 'caskroom/cask'
+tap 'caskroom/fonts'
+tap 'hhvm/hhvm'
+tap 'homebrew/apache'
+tap 'homebrew/binary'
+tap 'homebrew/boneyard'
+tap 'homebrew/bundle'
+tap 'homebrew/completions'
+tap 'homebrew/core'
+tap 'homebrew/dupes'
+tap 'homebrew/nginx'
+tap 'homebrew/php'
+tap 'homebrew/services'
+tap 'homebrew/versions'
+tap 'teslamint/devel'
+tap 'vitorgalvao/tiny-scripts'
+brew 'android-platform-tools'
+brew 'android-sdk'
+brew 'libyaml'
+brew 'openssl@1.1'
+brew 'pkg-config'
+brew 'gdbm'
+brew 'openssl'
+brew 'readline'
+brew 'sphinx-doc'
+brew 'icu4c'
+brew 'sqlite'
+brew 'python'
+brew 'ansible'
+brew 'boost'
+brew 'clasp'
+brew 'cmake'
+brew 'gringo'
+brew 'aspcud'
+brew 'autoconf'
+brew 'awscli'
+brew 'bash'
+brew 'gmp'
+brew 'isl'
+brew 'mpfr'
+brew 'libmpc'
+brew 'gcc'
+brew 'p7zip'
+brew 'ssdeep'
+brew 'pcre'
+brew 'swig'
+brew 'xz'
+brew 'binwalk'
+brew 'c-ares'
+brew 'c-kermit'
+brew 'ocaml'
+brew 'ocamlbuild'
+brew 'camlp4'
+brew 'chromedriver'
+brew 'gettext'
+brew 'git'
+brew 'go'
+brew 'consul'
+brew 'coreutils'
+brew 'ctags'
+brew 'ldns'
+brew 'libsodium'
+brew 'minisign'
+brew 'dnscrypt-proxy', restart_service: true
+brew 'libidn'
+brew 'dnsmasq', restart_service: true
+brew 'doxygen'
+brew 'dynamodb-local'
+brew 'elasticsearch'
+brew 'findutils'
+brew 'libusb'
+brew 'libusb-compat'
+brew 'libftdi0'
+brew 'flashrom', args: ['HEAD']
+brew 'talloc'
+brew 'freeradius-server'
+brew 'libpng'
+brew 'freetype'
+brew 'fzf'
+brew 'gawk'
+brew 'gengetopt'
+brew 'geoip'
+brew 'git-imerge'
+brew 'git-when-merged'
+brew 'gnu-getopt'
+brew 'gnu-sed'
+brew 'gnu-tar'
+brew 'gor'
+brew 'haproxy'
+brew 'help2man'
+brew 'nettle'
+brew 'hopenpgp-tools'
+brew 'homebrew/dupes/ncurses'
+brew 'htop'
+brew 'httpstat'
+brew 'hub'
+brew 'jpeg'
+brew 'libtiff'
+brew 'libtool'
+brew 'perl'
+brew 'imagemagick'
+brew 'mysql'
+brew 'innotop'
+brew 'json-c'
+brew 'keybase'
+brew 'kibana'
+brew 'leptonica'
+brew 'libevent'
+brew 'memcached', restart_service: true
+brew 'libmemcached'
+brew 'libssh2'
+brew 'libwebsockets'
+brew 'libxml2'
+brew 'libyubikey'
+brew 'logstash'
+brew 'mas'
+brew 'mhash'
+brew 'mcrypt'
+brew 'mercurial'
+brew 'minicom'
+brew 'mono'
+brew 'mosquitto'
+brew 'multimarkdown'
+brew 'nginx', args: ['with-http2'], restart_service: true
+brew 'ninja'
+brew 'nmap'
+brew 'node', args: ['with-full-icu']
+brew 'opam'
+brew 'packer'
+brew 'ykclient'
+brew 'ykpers'
+brew 'pam_yubico'
+brew 'percona-server', restart_service: true
+brew 'phantomjs'
+brew 'pidof'
+brew 'pinentry-mac'
+brew 'pngcrush'
+brew 'popt'
+brew 'postgresql'
+brew 'qt'
+brew 'quilt'
+brew 'rabbitmq-c'
+brew 'ragel'
+brew 'ruby-build'
+brew 'rbenv'
+brew 'reattach-to-user-namespace'
+brew 'redis', restart_service: true
+brew 'repo'
+brew 'rust'
+brew 'ripgrep'
+brew 'ruby'
+brew 'selenium-server-standalone'
+brew 'ssh-copy-id'
+brew 'syncthing'
+brew 'tesseract'
+brew 'the_silver_searcher'
+brew 'tidy-html5'
+brew 'utf8proc'
+brew 'tmux'
+brew 'unixodbc'
+brew 'v8'
+brew 'vim'
+brew 'wget', args: ['with-iri']
+brew 'yubico-piv-tool'
+brew 'yuicompressor'
+brew 'zeromq'
+brew 'zsh'
+brew 'homebrew/boneyard/shiboken'
+brew 'homebrew/boneyard/pyside'
+brew 'homebrew/dupes/grep'
+brew 'homebrew/dupes/nano'
+brew 'homebrew/dupes/zlib'
+brew 'homebrew/php/php70'
+brew 'homebrew/php/codeception'
+brew 'homebrew/php/composer'
+brew 'homebrew/php/igbinary'
+brew 'homebrew/php/php70-amqp'
+brew 'homebrew/php/php70-apcu'
+brew 'homebrew/php/php70-gmp'
+brew 'homebrew/php/php70-igbinary', args: ['HEAD']
+brew 'homebrew/php/php70-libsodium'
+brew 'homebrew/php/php70-mcrypt'
+brew 'homebrew/php/php70-memcached', args: ['HEAD']
+brew 'homebrew/php/php70-mongodb'
+brew 'homebrew/php/php70-msgpack'
+brew 'homebrew/php/php70-opcache'
+brew 'homebrew/php/php70-redis'
+brew 'homebrew/php/php70-scrypt'
+brew 'homebrew/php/phpunit'
+brew 'homebrew/php/wp-cli'
+brew 'homebrew/versions/bash-completion2'
+cask 'aerial'
+cask 'atom'
+cask 'beyond-compare'
+cask 'gog-galaxy'
+cask 'google-cloud-sdk'
+cask 'gpgtools'
+cask 'hyperterm'
+cask 'keybase'
+cask 'navicat-for-postgresql'
+cask 'p4merge'
+cask 'phpstorm'
+cask 'polymail'
+cask 'postman'
+cask 'robomongo'
+cask 'sequel-pro'
+cask 'sourcetree'
+cask 'sublime-text'
+cask 'textmate'
+cask 'tower'
+cask 'transmission'
+cask 'transmit'
+cask 'tunnelblick'
+cask 'vagrant'
+cask 'virtualbox'
+cask 'visual-studio'
+cask 'visual-studio-code'
+cask 'vmware-fusion'
+cask 'wireshark'
+cask 'yubikey-piv-manager'
+cask 'zerotier-one'
+mas 'Boxy', id: 1053031090
+mas 'Server', id: 883878097
+mas 'JPEGmini', id: 498944723
+mas 'GIF Brewery 3', id: 1081413713
+mas 'SplitScreen', id: 453757310
+mas 'Memory Clean', id: 451444120
+mas 'The Archive Browser', id: 510232205
+mas 'Xcode', id: 497799835
+mas 'KakaoTalk', id: 869223134
+mas 'Naver Cloud', id: 975815190
+mas 'Reeder', id: 880001334
+mas 'Writedown!', id: 574184591
+mas 'Tweetbot', id: 557168941
+mas 'Clear', id: 504544917
+mas 'Pushbullet', id: 948415170
+mas 'Apple Configurator 2', id: 1037126344
+mas 'Amphetamine', id: 937984704
+mas 'Spark', id: 1176895641
+mas 'The Unarchiver', id: 425424353
+mas 'YubiKey Personalization Tool', id: 638161122
+mas 'Telegram Desktop', id: 946399090
+mas 'NetSpot', id: 514951692
+mas 'WiFi Explorer', id: 494803304
+mas 'Folx GO+', id: 823528286
+mas 'Twitter', id: 409789998
+mas 'Microsoft Remote Desktop', id: 715768417
+mas 'OneDrive', id: 823766827
+mas 'Bandizip X', id: 492835684
+mas 'Pages', id: 409201541
+mas 'Disk Doctor', id: 455970963
+mas 'Monit', id: 1014850245
+mas 'Kindle', id: 405399194
+mas 'DaisyDisk', id: 411643860
+mas 'NetSpot Wi-Fi Reporter', id: 678464954
+mas 'Numbers', id: 409203825
+mas 'Night Owl', id: 428834068
+mas 'LINE', id: 539883307
+mas 'Bear', id: 1091189122
+mas 'Keynote', id: 409183694
+mas 'CleanMyDrive 2', id: 523620159
+mas '1Blocker', id: 1107421413
