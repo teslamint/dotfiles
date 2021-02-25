@@ -1,0 +1,3 @@
+[submodule "extra"]
+	path = extra
+	url = keybase://private/teslamint/dotfiles
