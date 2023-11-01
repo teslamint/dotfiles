@@ -1,0 +1,12 @@
+{{- $email := promptStringOnce . "email" "Email address" -}}
+{{- $name := promptStringOnce . "name" "Your Name" -}}
+{{- $keyPath := promptStringOnce . "keyPath" "age key path" -}}
+
+encryption = "age"
+[age]
+    identity = {{ $keyPath | quote }}
+    recipient = "age1sj2zr5z6vnwv27vwc4gtetenk5xp6t7kzp3al2kxnka6yfcwadhsekrzfc"
+
+[data]
+    name = {{ $name | quote }}
+    email = {{ $email | quote }}
